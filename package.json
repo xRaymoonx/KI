@@ -1,1 +1,47 @@
-{ "name": "hyperlokale-njob", "dependencies": { "react": "latest" } }
+{
+  "name": "hyperlokale-njob",
+  "version": "1.0.0",
+  "description": "Eine hyperlokale Job-App für kurzfristige Jobs in der Nähe.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "format": "prettier --write .",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "latest",
+    "react-dom": "latest",
+    "next": "latest",
+    "typescript": "latest",
+    "tailwindcss": "latest",
+    "autoprefixer": "latest",
+    "postcss": "latest",
+    "axios": "latest",
+    "mapbox-gl": "latest",
+    "zustand": "latest",
+    "react-icons": "latest",
+    "date-fns": "latest",
+    "react-toastify": "latest"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "prettier": "latest",
+    "jest": "latest",
+    "babel-jest": "latest",
+    "@testing-library/react": "latest",
+    "@testing-library/jest-dom": "latest"
+  },
+  "eslintConfig": {
+    "extends": "next/core-web-vitals"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "tabWidth": 2
+  },
+  "license": "MIT"
+}
