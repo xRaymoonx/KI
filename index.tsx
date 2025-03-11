@@ -1,0 +1,1 @@
+<!-- Hauptdatei für Next.js -->
